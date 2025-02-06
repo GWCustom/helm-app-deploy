@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  app-deployment:
+  - apiVersion: v2
+    created: "2025-02-07T00:46:41.187791874+01:00"
+    description: A reusable Helm chart for deploying applications
+    digest: 6846bef5dcf755204b49524a072a061e3a3c2fdf81e6ad8fa1ea3a18809ac8fa
+    name: app-deployment
+    urls:
+    - https://GWCustom.github.io/helm-app-deploy/app-deployment-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-02-07T00:46:41.186295071+01:00"
