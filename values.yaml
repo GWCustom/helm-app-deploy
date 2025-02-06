@@ -1,0 +1,21 @@
+replicaCount: 1
+
+image:
+  repository: "default-registry.io/default-app"
+  tag: "latest"
+  pullPolicy: Always
+
+namespace: "default"
+
+ingress:
+  enabled: true
+  host: "default-app.example.com"
+  tls: true
+
+resources:
+  limits:
+    cpu: "500m"
+    memory: "256Mi"
+  requests:
+    cpu: "250m"
+    memory: "128Mi"
